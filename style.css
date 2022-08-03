@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family:  'Public Sans','Courier New', Courier, monospace;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+     background-color:  hsl(220, 16%, 96%);
+    border: 1px solid green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-section {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid; */
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.nav-link {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    padding: 0px 10px ;
+    color:  hsl(233, 8%, 62%);
+}
+.btn {
+    background: linear-gradient(45deg , hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover {
+background-color: white;
+color: black;
+}
+.tophero-section {
+    display: flex;
+    justify-content: space-around;
+   background-color:  hsl(220, 16%, 96%);
+   
+}
+.image-section {
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   width: 40%;
+   height: 100%;
+   margin-top: 55px;
+ 
+  
+}
+.text-section {
+    margin-left: 5%;
+}
+h1{
+    color: hsl(233, 26%, 24%);
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 35%;
+}
+.text-paragraph{
+    font-size: 16px;
+    color:  hsl(233, 8%, 62%);
+    margin-top: 25px;
+}
+#hero-btn {
+    margin-top: 30px;
+}
+.image-box {
+    width: 70vh;
+    height: 90vh;
+    margin-top: 45px;
+    background:       radial-gradient(calc(var(--s)/2) at top   ,#c39f76 99%,#0000),
+    radial-gradient(calc(var(--s)/2) at bottom,#c39f76 99%,#0000);
+}
+.hero-section {
+    /* border: 1px solid; */
+    background-color:  hsl(220, 16%, 96%);
+    margin: 10%;
+    
+  
+}
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color:hsl(233, 26%, 24%) ;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-paragraph {
+    font-size: 16px; 
+    color:hsl(233, 8%, 62%) ;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.card-section {
+    /* border: 1px solid green; */
+    padding: 10px 10px 10px 0;
+    width: 25%;
+    margin-left: 10px;
+    
+}
+h4{
+   font-size: 20px; 
+   margin-bottom: 10px;
+   color: hsl(233, 8%, 62%) ;
+}
+.online-paragraph {
+    font-size: 14px; 
+    color:hsl(233, 8%, 62%) ;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.hero-card {
+    display: flex;
+}
+.article-section{
+    background-color:  hsl(220, 16%, 96%);
+    /* border: 1px solid; */
+    margin: 10%;
+}
+.article-card{
+    /* border: 1px solid green; */
+    padding: 10px 10px 10px 0;
+    width: 25%;
+    margin-left: 10px;   
+}
+.article-img {
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+small {
+    font-size: 8px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: hsl(233, 8%, 62%);
+
+}
+.receive-paragraph {
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: hsl(233, 26%, 24%);
+}
+.world-paragraph {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 20px;
+}
+.articlecard-container {
+    display: flex;
+}
+.footer-section {
+    background-color:hsl(233, 26%, 24%);
+    border: 1px solid; 
+    margin: 10% 10% 0 10%;
+}
+.logo-socioicon {
+    margin: 40px;
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+}
+
+.social-icon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.icon {
+padding: 5px;
+}
+.footer-container {
+    display: flex; 
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn2 {
+    background: linear-gradient(45deg , hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 6px;
+    border-radius: 25px;
+    cursor: pointer;  
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 60%;
+}
+.copyright {
+    font-size: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.copyright-card {
+    display: flex;
+    flex-direction: column;
+}
